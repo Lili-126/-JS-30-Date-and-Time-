@@ -13,11 +13,18 @@ html {
 * {
     margin: 0;
     padding: 0;
-    cursor: pointer;
+    overflow: hidden;
 }
 
-.wrapper {
+body {
     width: 100vw;
     height: 100vh;
     background: url(./images/image.jpg) center center/cover no-repeat;
+    font-family: "Rocher";
 }
+
+.wrapper {
+   width: 60%;
+   margin: 5vw 0 0 5vw;
+}
+
