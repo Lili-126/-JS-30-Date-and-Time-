@@ -103,29 +103,30 @@ body {
     }
 
     .wrapper {
+        position: static;
         padding: 1rem;
     }
 
     .my-date,
     .time {
+        position: static;
         width: 80%;
-        padding-left: 3rem;
     }
 
     .my-date {
         font-size: 2.5rem;
-        padding-top: 60rem;
     }
 
     .time {
         font-size: 4rem;
-        padding-top: 63rem;
     }
 
     .text {
         font-size: 2.3rem;
     }
 
+    .my-date,
+    .time,
     .text,
     .timer-days,
     .timer {
