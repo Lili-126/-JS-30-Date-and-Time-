@@ -89,19 +89,57 @@ body {
         padding-top: 91rem;
     }
 
-    .text {
-        padding-top: 2rem;
-        padding-left: 3rem;
-    }
-
-    .timer-days {
-        padding-top: 2rem;
-        padding-left: 3rem;
-    }
-
+    .text,
+    .timer-days,
     .timer {
         padding-top: 2rem;
         padding-left: 3rem;
     }
+}
+
+@media screen and (max-width: 431px) {
+    body {
+        background: url(./images/micro.jpg) center center/cover no-repeat;
+    }
+
+    .wrapper {
+        padding: 1rem;
+    }
+
+    .my-date,
+    .time {
+        width: 80%;
+        padding-left: 3rem;
+    }
+
+    .my-date {
+        font-size: 2.5rem;
+        padding-top: 60rem;
+    }
+
+    .time {
+        font-size: 4rem;
+        padding-top: 63rem;
+    }
+
+    .text {
+        font-size: 2.3rem;
+    }
+
+    .text,
+    .timer-days,
+    .timer {
+        padding-top: 1rem;
+        padding-left: 3rem;
+    }
+
+    .timer-days {
+        font-size: 3rem;
+    }
+
+    .timer {
+        font-size: 4rem;
+    }
+
 }
 
