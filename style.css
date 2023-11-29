@@ -25,6 +25,83 @@ body {
 
 .wrapper {
    width: 60%;
-   margin: 5vw 0 0 5vw;
+    padding: 4vw 5vw;
+}
+
+.my-date {
+    font-size: 4rem;
+    padding-top: 5rem;
+    padding-left: 7rem;
+}
+
+.time {
+    font-size: 6rem;
+    padding-left: 14rem;
+}
+
+.text {
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+.timer-days {
+    font-size: 5rem;
+    padding-top: 4rem;
+    padding-left: 17rem;
+}
+
+.timer {
+    font-size: 6rem;
+    padding-top: 2rem;
+    padding-left: 13rem;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: url(./images/small.jpg) center center/cover no-repeat;
+    }
+
+    .wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .my-date,
+    .time {
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        padding-left: 5rem;
+    }
+
+    .my-date {
+        font-size: 4.5rem;
+        padding-top: 85rem;
+    }
+
+    .time {
+        padding-top: 91rem;
+    }
+
+    .text {
+        padding-top: 2rem;
+        padding-left: 3rem;
+    }
+
+    .timer-days {
+        padding-top: 2rem;
+        padding-left: 3rem;
+    }
+
+    .timer {
+        padding-top: 2rem;
+        padding-left: 3rem;
+    }
 }
 
