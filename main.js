@@ -78,6 +78,8 @@ function calcTime() {    // расчитывает и выводит на экр
     }
     calcTime();
 
+    let timeinterval = setTimeout(calcTime,1000);
+
 
 
 
